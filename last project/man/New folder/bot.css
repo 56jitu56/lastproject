@@ -1,0 +1,83 @@
+.Login {
+
+    margin: 9px 89px;
+}
+
+.Search {
+    margin: 9px 34px;
+
+}
+.Login{
+    font-size:medium;
+
+}
+#shopping:hover{
+    font-size: x-large;
+    color: green;
+    transition: 0.2s; }
+
+#Navbar:hover{
+
+    font-size: x-large;
+    color: green;
+    transition: 0.6s; }
+   
+
+#two:hover{
+    
+    border:  green;
+    box-shadow:green;
+    background-color: white;
+    transition: 0.5s;
+ }
+
+#first {
+    border-radius: 0;
+}
+#first:hover{
+    background-color: green;
+    border: green;
+    box-shadow: none;
+    transition: 0.5s; }
+
+#shopping{
+    margin: 1px -8px;
+    display: block;
+    padding-right: 30px;
+    padding-left: 24px;
+    
+}
+
+#first {
+    border-top-right-radius: 31px;
+    border-bottom-right-radius: 7px;
+    border: 2px;
+    margin: 1px -8px;
+    /* display: block; */
+    padding-right: 30px;
+    padding-left: 24px;
+    background-color: white;
+    border-color: green;
+}
+
+#two {
+    border-radius: 0;
+}
+
+#two {
+    border-bottom-left-radius: 31px;
+    border-bottom-right-radius: 7px;
+    border: none;
+    padding: 0px 34px;
+    margin: 1px -12px;
+    display: block;
+    padding-top: 4px;
+    padding-right: 417px;
+    padding-bottom: 8px;
+
+}
+@media only screen and (max-width: 600px) {
+    
+}
+
+

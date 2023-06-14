@@ -1,0 +1,114 @@
+html nav bar
+
+ <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" id="Navbar" href="#">Navbar </a>
+      <button class="navbar-toggler "  type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarScroll">
+        <form class="d-flex position-absolute top-0 start-50 translate-middle-x Search" role="search">
+          <input id="two" type="search" placeholder="Search">
+          <button class="btn btn-outline-success "id=first type="submit">Search</button>
+        </form>
+        <button class="btn btn-outline-success position-absolute top-0 end-0  Login" type="submit">Login</button>
+        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+          <li class="nav-item position-absolute top-50 end-0 translate-middle-y">
+            <a class="nav-link active" id="shopping"  aria-current="page" href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+          </li>
+         
+        </ul>
+       
+      </div>
+    </div>
+  </nav>
+
+
+
+  
+  css for navbar use karni hi 
+
+
+  .Login {
+
+    margin: 9px 89px;
+}
+
+.Search {
+    margin: 9px 34px;
+
+}
+.Login{
+    font-size:medium;
+
+}
+#shopping:hover{
+    font-size: x-large;
+    color: green;
+    transition: 0.2s; }
+
+#Navbar:hover{
+
+    font-size: x-large;
+    color: green;
+    transition: 0.6s; }
+   
+
+#two:hover{
+    
+    border:  green;
+    box-shadow:green;
+    background-color: white;
+    transition: 0.5s;
+ }
+
+#first {
+    border-radius: 0;
+}
+#first:hover{
+    background-color: green;
+    border: green;
+    box-shadow: none;
+    transition: 0.5s; }
+
+#shopping{
+    margin: 1px -8px;
+    display: block;
+    padding-right: 30px;
+    padding-left: 24px;
+    
+}
+
+#first {
+    border-top-right-radius: 31px;
+    border-bottom-right-radius: 7px;
+    border: 2px;
+    margin: 1px -8px;
+    /* display: block; */
+    padding-right: 30px;
+    padding-left: 24px;
+    background-color: white;
+    border-color: green;
+}
+
+#two {
+    border-radius: 0;
+}
+
+#two {
+    border-bottom-left-radius: 31px;
+    border-bottom-right-radius: 7px;
+    border: none;
+    padding: 0px 34px;
+    margin: 1px -12px;
+    display: block;
+    padding-top: 4px;
+    padding-right: 417px;
+    padding-bottom: 8px;
+
+}
+@media only screen and (max-width: 600px) {
+    
+}
+
+
